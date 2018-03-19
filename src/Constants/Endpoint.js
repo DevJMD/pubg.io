@@ -36,7 +36,7 @@ export const Endpoint = {
 	 * @argument {resource, options, arguments, callback}
 	 *
 	 */
-	GET_MATCHES: function(resource, opts, args, cb) {
+	GET_MATCHES: (resource, opts, args, cb) => {
 
 		return new PromiseHTTPRequest.get({
 			base: {
