@@ -1,5 +1,5 @@
 {
-  "name": "pubg-node-wrapper",
+  "name": "pubg.io",
   "version": "0.1.0",
   "main": "lib/index.js",
   "description": "A complimentary Node wrapper for PlayerUnknown: Battlegrounds.",
