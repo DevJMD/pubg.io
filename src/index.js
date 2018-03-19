@@ -9,7 +9,7 @@ import { ErrorHandler } from './Utils/ErrorHandler';
 import { typeCheck } from 'type-check';
 import toLowerCase from 'lower-case';
 
-export class PUBGWrapper {
+export class PUBGAPI {
 
 	constructor(key, options = {}) {
 
