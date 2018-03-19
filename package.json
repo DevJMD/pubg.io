@@ -1,6 +1,6 @@
 {
   "name": "pubg.io",
-  "version": "0.1.0",
+  "version": "0.1.10",
   "main": "lib/index.js",
   "description": "A complimentary Node wrapper for PlayerUnknown: Battlegrounds.",
   "author": "James Martin-Davies <hello@devjmd.com> (https://devjmd.com)",
@@ -30,10 +30,11 @@
     "url": "https://github.com/DevJMD/PUBG-Node-Wrapper/issues"
   },
   "keywords": [
-    "movies",
-    "films",
-    "node",
-    "wrapper"
+    "pubg",
+    "game",
+    "gaming",
+	"playerunknown",
+	"battlegrounds"
   ],
   "license": "MIT"
 }
