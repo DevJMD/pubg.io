@@ -5,6 +5,7 @@ import { PromiseHTTPRequest } from '../HTTP/PromiseHTTPRequest';
 export const Endpoint = {
 
 	/**
+	 *
 	 * @function GET_MATCH
 	 * @returns {cb(response, error)}
 	 *
@@ -30,6 +31,9 @@ export const Endpoint = {
 	/**
 	 *
 	 * @function GET_MATCHES
+	 * @returns {cb(response, error)}
+	 *
+	 * @argument {resource, options, arguments, callback}
 	 *
 	 */
 	GET_MATCHES: function(resource, opts, args, cb) {
