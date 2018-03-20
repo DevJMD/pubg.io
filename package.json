@@ -1,6 +1,6 @@
 {
   "name": "pubg.io",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "main": "lib/index.js",
   "description": "A complimentary Node wrapper for PlayerUnknown: Battlegrounds.",
   "author": "James Martin-Davies <hello@devjmd.com> (https://devjmd.com)",
