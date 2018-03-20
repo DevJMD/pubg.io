@@ -23,7 +23,7 @@ Option | Type | Default | Description
 --- | --- | --- | ---
 platform | String | 'PC' | The platform to get data from. You can use `PC` or `Xbox`
 region | String | 'EU' | The region to get data from. See https://goo.gl/MqbFty for allowed regions.
-qs | Object | {} | The Query String object to pass additional filters/requests.
+query | Object | {} | The Query String object to pass additional filters/requests.
 
 ## Usage
 ```javascript
@@ -60,18 +60,18 @@ api.get('matches', { ...options }, (match, error) => {
 
 # Filters
 
-Use the `qs` option to set filters/sorting parameters.
+Use the `query` option to set filters/sorting parameters.
 
 ### Oldest First
 ```javascript
-api.get('matches', { qs: { sort: 'createdAt' } }, (match, error) => {
+api.get('matches', { query: { sort: 'createdAt' } }, (match, error) => {
 	console.log(match || error);
 });
 ```
 
 ### Newest First
 ```javascript
-api.get('matches', { qs: { sort: '-createdAt' } }, (match, error) => {
+api.get('matches', { query: { sort: '-createdAt' } }, (match, error) => {
 	console.log(match || error);
 });
 ```
@@ -79,7 +79,7 @@ api.get('matches', { qs: { sort: '-createdAt' } }, (match, error) => {
 ### Limit
 ```javascript
 // Limit to 2 items
-api.get('matches', { qs: { 'page[limit]': '2' } }, (match, error) => {
+api.get('matches', { query: { 'page[limit]': '2' } }, (match, error) => {
 	console.log(match || error);
 });
 ```
@@ -87,7 +87,7 @@ api.get('matches', { qs: { 'page[limit]': '2' } }, (match, error) => {
 ### Offset
 ```javascript
 // Offset data by 2 items, returning item 2 through to 5.
-api.get('matches', { qs: { 'page[limit]': '5', 'page[offset]': '2' } }, (match, error) => {
+api.get('matches', { query: { 'page[limit]': '5', 'page[offset]': '2' } }, (match, error) => {
 	console.log(match || error);
 });
 ```

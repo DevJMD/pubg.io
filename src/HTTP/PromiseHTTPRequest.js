@@ -21,9 +21,11 @@ export class PromiseHTTPRequest {
 
 		// Set the required/optional values for the query.
 		reqConfig.headers.Authorization = params.base.opts.key;
-		reqConfig.qs = params.base.args || params.base.args.query;
+		reqConfig.qs = Object.assign({}, params.base.args.query);
 		reqConfig.uri = params.uri;
 		reqConfig.method = 'GET';
+
+		console.log(reqConfig);
 
 		request(reqConfig)
 
