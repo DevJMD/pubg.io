@@ -25,8 +25,6 @@ export class PromiseHTTPRequest {
 		reqConfig.uri = params.uri;
 		reqConfig.method = 'GET';
 
-		console.log(reqConfig);
-
 		request(reqConfig)
 
 			.then((data) => {
