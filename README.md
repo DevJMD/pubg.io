@@ -1,16 +1,18 @@
-# PUBG-Node-Wrapper
+# pubg.io
 An ES6 Promise A+ Compliant NodeJS Library for the Official PlayerUnknown: Battlegrounds API.
+
+**PLEASE NOTE** - This is an unfinished wrapper until the PUBG API is officially released to the public. Although tested, I can't guarantee this will consistently work until I have created a full release. You're free to test it if you have an API key, however and will accept collaborations. 🤘
 
 ## Install
 
 ## Install with Yarn
 ```
-yarn add pubg-node-wrapper
+yarn add pubg.io
 ```
 
 ## Install with NPM
 ```
-npm install pubg-node-wrapper
+npm install pubg.io
 ```
 
 ## Import (ES6)
