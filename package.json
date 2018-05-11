@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevJMD/PUBG-Node-Wrapper"
+    "url": "https://github.com/DevJMD/pubg.io"
   },
   "bugs": {
-    "url": "https://github.com/DevJMD/PUBG-Node-Wrapper/issues"
+    "url": "https://github.com/DevJMD/pubg.io/issues"
   },
   "keywords": [
     "pubg",
