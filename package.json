@@ -11,7 +11,8 @@
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "dependencies": {
-    "lower-case": "^1.1.4"
+    "lower-case": "^1.1.4",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
@@ -21,7 +22,6 @@
     "chokidar": "^2.0.2",
     "colors": "^1.2.1",
     "mocha": "^5.0.4",
-    "request-promise": "^4.2.2",
     "type-check": "^0.3.2"
   },
   "repository": {
