@@ -10,6 +10,11 @@
     "compile": "babel src --out-dir .compiled --source-maps --watch",
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
+  "dependencies": {
+    "lower-case": "^1.1.4",
+    "request-promise": "^4.2.2",
+    "request": "^2.85.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.7.5",
     "babel-core": "^6.7.6",
@@ -17,24 +22,22 @@
     "bluebird": "^3.5.1",
     "chokidar": "^2.0.2",
     "colors": "^1.2.1",
-    "lower-case": "^1.1.4",
     "mocha": "^5.0.4",
-    "request-promise": "^4.2.2",
     "type-check": "^0.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevJMD/PUBG-Node-Wrapper"
+    "url": "https://github.com/DevJMD/pubg.io"
   },
   "bugs": {
-    "url": "https://github.com/DevJMD/PUBG-Node-Wrapper/issues"
+    "url": "https://github.com/DevJMD/pubg.io/issues"
   },
   "keywords": [
     "pubg",
     "game",
     "gaming",
-	"playerunknown",
-	"battlegrounds"
+    "playerunknown",
+    "battlegrounds"
   ],
   "license": "MIT"
 }
